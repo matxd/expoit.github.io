@@ -3,14 +3,8 @@ body {
 }
 
 #iconpadrao {
-    position: absolute;
-    top: 0rem;
-    left: 45rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#iconsombra {
-    opacity: 0.5;
-    position: absolute;
-    top: 0rem;
-    left: 45rem; 
-}
