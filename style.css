@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap');
 
-@media only screen and (max-device-width: 900px) {
-    #responsividade { width:100%; }
-}
-
+@media (max-width: 1450px) {
+  #cabecalho #logotipo-cabecalho{visibility: hidden;}}
 
 * {
   margin: 0;
@@ -58,7 +56,10 @@ header {
 #cabecalho {
     position: absolute;
     top: 25%;
+    bottom: 25%;
     left: 15%;
+    right: 15%;
+    align-items: center;
 }
   
 #cabecalho h1 {
@@ -90,6 +91,16 @@ header {
     opacity: 0;
     animation: animacaoinicial 1s 0.7s forwards;
 }
+
+#cabecalho #logotipo-cabecalho {
+  position: absolute;
+  top: -7%;
+  left: 80%;
+  right: 0%;
+  opacity: 0;
+  animation: animacaoinicial 1s 0.5s forwards;
+}
+
   
 @keyframes animacaoinicial {
     0% {
@@ -192,15 +203,6 @@ header {
 #info-imagem-sobre {
   grid-column: 6 / 14;
   grid-row: 3 / 7;
-}
-
-
-#info-imagem-sobre img {
-  position: absolute;
-  top: 18%;
-  right: 15%;
-  opacity: 0;
-  animation: animacaoinicial 1s 0.5s forwards;
 }
 
 
