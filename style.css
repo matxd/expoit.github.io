@@ -112,7 +112,7 @@ header {
     }
 }
 
-#fundo-sobre{
+#fundo-sobre {
   height: 100%;
   display: grid;
   grid-template-columns: repeat(14, 1fr);
@@ -299,6 +299,7 @@ header {
   width: 80%;
   margin-bottom: 2rem;
 }
+
 .btn {
   background: #6a3093;
   background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
