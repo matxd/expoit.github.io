@@ -189,7 +189,7 @@ header {
 #info-cabecalho h3 {
   font-family: var(--fonte-terciaria);
   font-size: 2rem;
-  padding-left: 1rem;
+  margin: auto;
 }
 
 #info-texto {
