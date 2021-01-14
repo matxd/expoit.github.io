@@ -10,96 +10,109 @@
     <link rel="stylesheet" href="style.css">
     <title>Expoit</title>
 </head>
+
 <body>
-<header>
-    <div id="imagem">
+<!-- Esse seletor é utilizado para monitorar a entrada de dados e o tratamento .css do id "cabecalho", sendo respectivamente a imagem de fundo/trailer, com a escrita "EXPOIT" e a sua mensagem"Grupo focado em jogos de sobrevivência e simulação!", e imprimindo a imagem do grupo empng e o botão do discord acoplado ao link "-->
+  <div id="cabecalho"> <!--Apenas informando que essa seção do index pertende ao nome dentro do id -->
+    <div id="cabecalho-imagem">
       <picture>
         <source media="(max-width:1050px)" srcset="imagens/imagemfundog.png" type="image/">
         <source media="(max-width:750px)" srcset="imagens/imagemfundom.png" type="image/">
-        <source media="(max-width:300px)" srcset="imagens/imagemfundop.png" type="image/">  
+        <source media="(max-width:300px)" srcset="imagens/imagemfundop.png" type="image/">
         <img src="imagens/imagemfundo.png" alt="imagemprincipal">
-      </picture>
+        </picture>
     </div>
-    <div id="cabecalho">
+    <div id="cabecalho-texto">
         <h1>Expoit</h1>
-        <p>Grupo focado em jogos de sobrevivência e simulação!</p>
+          <p>Grupo focado em jogos de sobrevivência e simulação!</p>
         <a href="https://discord.gg/TrDSNASntw" target="_blank" rel="external">
-        <img src="imagens/botaodc.png" alt="botaodc" id="botaodc"></a>
-        <img src="imagens/imagem-sobrep.png" alt="imagem-cabecalho" id="logotipo-cabecalho">
+          <img src="imagens/botaodc.png" alt="imagem-cabecalho2" id="logotipo-discord"></a>
+              <img src="imagens/imagem-sobrep.png" alt="imagem-cabecalho2" id="logotipo-cabecalho">
     </div>
-</header>
-
-
-<section id="sobre">
-  <div id="cabecalho-fundo-sobre">
-    <h1>Sobre</h1>
   </div>
-  <div id="fundo-imagem-sobre">
-    <img src="imagens/imagemarma.png" alt="imagemarma">
-  </div>
-</section>
 
-<!-- Não ativar as linhas de código abaixo -->
 
-  <!-- <div class="sessao-projetos" id="projetos">
-    <div class="sessao-header">
-      <h1>Fundadores</h1>
+
+
+
+<div id="sobre"> <!--Apenas informando que essa seção do index pertende ao nome dentro do id -->
+    <div id="sobre-cabecalho">
+      <h1>Sobre</h1>
     </div>
-    <div class="projetos">
-      <div class="card">
-        <div class="card-img-wrapper">
-          <img src="imagens/11.png" alt="imagem do projeto ToDo" />
-        </div>
-        <div class="card-info">
-          <h2>Pzheus</h2>
-          <h3>Mateus Henrique</h3>
-          <p>Tenho 19 anos e sou;.....</p>
-          <button class="btn">Saiba Mais</button>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-img-wrapper">
-          <img src="imagens/11.png" alt="imagem do projeto Maratona" />
-        </div>
-        <div class="card-info">
-          <h2>matheusanguebom</h2>
-          <h3>Mateus Ryan</h3>
-          <p>Tenho labaibolinha de idade e .............</p>
-          <button class="btn">Saiba Mais</button>
-        </div>
-      </div>
+    <div id="sobre-imagem">
+      <img src="imagens/imagemarma.png" alt="imagemarma">
       </div>
     </div>
-
-    <div class="sessao-projetos" id="projetos">
-      <div class="sessao-header">
-        <h1>Criadores de Conteúdo</h1>
+    
+  
+      <div id="cabecalho-fundo-sobre">
+        <h1>Sobre</h1>
       </div>
-      <div class="projetos">
-        <div class="card">
-          <div class="card-img-wrapper">
-            <img src="imagens/11.png" alt="imagem do projeto ToDo" />
+      <div id="fundo-sobre">   <!-- Grid e Background color -->
+        <div id="info">
+          <div id="info-cabecalho">
+            <i class="fab fa-html5"></i>
+            <h3>História</h3>
           </div>
-          <div class="card-info">
-            <h2>Pzheus</h2>
-            <h3>Mateus Henrique</h3>
-            <p>Tenho 19 anos e sou;.....</p>
-            <button class="btn">Saiba Mais</button>
+          <div id="info-texto">
+            <p>No ano de 2013 no mundo de Multi Theft Auto, Pzheus e matheusanguebom desbravam o mundo aberto de DayZ, é ali nasce o primeiro grupo denominado "Expoit". </p>
           </div>
         </div>
-        <div class="card">
-          <div class="card-img-wrapper">
-            <img src="imagens/11.png" alt="imagem do projeto Maratona" />
+        <div id="info">
+          <div id="info-cabecalho">
+            <i id="fab fa-css3-alt"></i>
+            <h3>Doutrina</h3>
           </div>
-          <div class="card-info">
-            <h2>matheusanguebom</h2>
-            <h3>Matheus Ryan</h3>
-            <p>Tenho labaibolinha de idade e .............</p>
-            <button class="btn">Saiba Mais</button>
+          <div id="info-texto">
+            <p>"O grupo joga junto, e junto vai jogar o grupo."
+            </p>
           </div>
         </div>
+        <div id="info">
+          <div id="info-cabecalho">
+            <i id="fas fa-pencil-alt"></i>
+            <h3>Inspiração</h3>
+          </div>
+          <div id="info-texto">
+            <p>O que nós leveou a criar este grupo foi a simples idéia de que sozinho não podemos nada, sempre vamos depender de alguém, assim como um filho precisa da mãe!
+            </p>
+          </div>
         </div>
-      </div>-->
+        <div id="info">
+          <div id="info-cabecalho">
+            <i id="fab fa-js"></i>
+            <h3>O que somos?</h3>
+          </div>
+          <div id="info-texto">
+            <p>Somos um grupo que começou a partir de jogos de sobreviência e tem migrado aos de simulação, jogamos pela real experiência do mesmo!
+            </p>
+          </div>
+        </div>
+        <div id="info">
+          <div id="info-cabecalho">
+            <i id="fab fa-bootstrap"></i>
+            <h3>Jogos</h3>
+          </div>
+          <div id="info-texto">
+            <p>DayZ, ArmA 3, Grand Theft Auto 5, Escape From Tarkov e muito mais. </p>
+          </div>
+        </div>
+        <div id="info">
+          <div id="info-cabecalho">
+            <i id="fab fa-github"></i>
+            <h3>Comunidades</h3>
+          </div>
+          <div id="info-texto">
+            <p>Estamos presente nas comundades da Twitch, Youtube e também do Facebook de maneira indireta, atravé dos nossos criadores de conteúdo.</p>
+          </div>
+        </div>
+        <div id="info-imagem-sobre">
+        </div>
+    </div>
+    
+  
+
+ 
 </div> 
 </body>
 <script src="expoit.js"></script>
