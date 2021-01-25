@@ -84,7 +84,7 @@ header {
   animation: animacaoinicial 1s 0.5s forwards;
 }
   
-#cabecalho-texto #logotipo-discord{  
+#cabecalho-texto #logotipo-discord {  
   padding: 1rem 0rem;
   border: none;
   border-radius: 5px;
@@ -116,9 +116,7 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 1;
   overflow: hidden;
-  filter: blur(1px);
 }
 
 #sobre-cabecalho { 
@@ -235,9 +233,4 @@ header {
   margin-bottom: 1rem;
   margin: 20px;
   color: #ffffff;
-}
-  
-#info-imagem-sobre {
-  grid-column: 6 / 14;
-  grid-row: 3 / 7;
 }
